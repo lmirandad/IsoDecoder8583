@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE isopackager SYSTEM "genericpackager.dtd">
+
+<!-- BASE24 field descriptions for GenericPackager -->
+
+<isopackager>
+  <isofield
+      id="0"
+      length="4"
+      name="MESSAGE TYPE INDICATOR"
+      class="org.jpos.iso.IFA_NUMERIC"/>
+  <isofield
+      id="1"
+      length="16"
+      name="BIT MAP"
+      class="org.jpos.iso.IFA_BITMAP"/>
+  <isofield
+      id="2"
+      length="19"
+      name="PAN - PRIMARY ACCOUNT NUMBER"
+      class="org.jpos.iso.IFA_LLNUM"/>
+  <isofield
+      id="3"
+      length="6"
+      name="PROCESSING CODE"
+      class="org.jpos.iso.IFA_NUMERIC"/>
+  <isofield
+      id="4"
+      length="12"
+      name="AMOUNT, TRANSACTION"
+      class="org.jpos.iso.IFA_NUMERIC"/>
+  <isofield
+      id="7"
+      length="10"
+      name="TRANSMISSION DATE AND TIME"
+      class="org.jpos.iso.IFA_NUMERIC"/>
+  <isofield
+      id="11"
+      length="6"
+      name="SYSTEM TRACE AUDIT NUMBER"
+      class="org.jpos.iso.IFA_NUMERIC"/>
+  <isofield
+      id="12"
+      length="6"
+      name="TIME, LOCAL TRANSACTION"
+      class="org.jpos.iso.IFA_NUMERIC"/>
+  <isofield
+      id="13"
+      length="6"
+      name="DATE, LOCAL TRANSACTION"
+      class="org.jpos.iso.IFA_NUMERIC"/>
+  <isofield
+      id="14"
+      length="4"
+      name="DATE, EXPIRATION"
+      class="org.jpos.iso.IFA_NUMERIC"/>
+  <isofield
+      id="15"
+      length="4"
+      name="DATE, SETTLEMENT"
+      class="org.jpos.iso.IFA_NUMERIC"/>
+  <isofield
+      id="17"
+      length="4"
+      name="DATE, CAPTURE"
+      class="org.jpos.iso.IFA_NUMERIC"/>
+ <isofield
+      id="22"
+      length="3"
+      name="POINT OF SERVICE ENTRY MODE"
+      class="org.jpos.iso.IFA_NUMERIC"/>
+  <isofield
+      id="24"
+      length="3"
+      name="NETWORK INTERNATIONAL IDENTIFIEER"
+      class="org.jpos.iso.IFA_NUMERIC"/>
+  <isofield
+      id="25"
+      length="2"
+      name="POINT OF SERVICE CONDITION CODE"
+      class="org.jpos.iso.IFA_NUMERIC"/>
+ <isofield
+      id="35"
+      length="37"
+      name="TRACK 2 DATA"
+      class="org.jpos.iso.IFA_LLNUM"/>
+  <isofield
+      id="37"
+      length="12"
+      name="RETRIEVAL REFERENCE NUMBER"
+      class="org.jpos.iso.IFA_BINARY"/>
+  <isofield
+      id="38"
+      length="6"
+      name="AUTHORIZATION IDENTIFICATION RESPONSE"
+      class="org.jpos.iso.IFA_BINARY"/>
+  <isofield
+      id="39"
+      length="2"
+      name="RESPONSE CODE"
+      class="org.jpos.iso.IFA_BINARY"/>
+  <isofield
+      id="41"
+      length="8"
+      name="CARD ACCEPTOR TERMINAL IDENTIFICACION"
+      class="org.jpos.iso.IFA_BINARY"/>
+  <isofield
+      id="42"
+      length="15"
+      name="CARD ACCEPTOR IDENTIFICATION CODE"
+      class="org.jpos.iso.IFA_BINARY"/>
+  <isofield
+      id="43"
+      length="40"
+      name="CARD ACCEPTOR NAME/LOCATION"
+      class="org.jpos.iso.IF_CHAR"/>
+  <isofield
+      id="44"
+      length="25"
+      name="ADITIONAL RESPONSE DATA"
+      class="org.jpos.iso.IFA_LLCHAR"/>
+  <isofield
+      id="48"
+      length="232"
+      name="ADITIONAL DATA - PRIVATE"
+      class="org.jpos.iso.IFA_LLLCHAR"/>
+  <isofield
+      id="49"
+      length="3"
+      name="CURRENCY CODE, TRANSACTION"
+      class="org.jpos.iso.IFA_NUMERIC"/>
+ <isofield
+      id="52"
+      length="8"
+      name="PIN DATA"
+      class="org.jpos.iso.IFA_BINARY"/>
+  <isofield
+      id="53"
+      length="20"
+      name="SECURITY RELATED CONTROL INFORMATION"
+      class="org.jpos.iso.IFA_LLLCHAR"/>
+  <isofield
+      id="54"
+      length="12"
+      name="ADDITIONAL AMOUNTS"
+      class="org.jpos.iso.IFA_LLLCHAR"/>
+  <isofield
+      id="55"
+      length="999"
+      name="RESERVED ISO"
+      class="org.jpos.iso.IFA_LLLBINARY"/>
+  <isofield
+      id="60"
+      length="999"
+      name="RESERVED PRIVATE"
+      class="org.jpos.iso.IFA_LLLCHAR"/>
+  <isofield
+      id="61"
+      length="999"
+      name="RESERVED PRIVATE"
+      class="org.jpos.iso.IFA_LLLCHAR"/>
+  <isofield
+      id="62"
+      length="999"
+      name="RESERVED PRIVATE"
+      class="org.jpos.iso.IFA_LLLCHAR"/>
+  <isofield
+      id="63"
+      length="999"
+      name="RESERVED PRIVATE"
+      class="org.jpos.iso.IFA_LLLCHAR"/>
+  </isopackager>
